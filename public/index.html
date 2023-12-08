@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="cardElt">
+            <div class="container">
+                <div class="backgroundColorMain">
+                    <div class="cardBack">
+                        <div class="containerCardBack">
+                            <div class="firstLine"></div>
+                            <div class="secondLine">
+                                <form action="">
+                                    <input type="number" id="number1" placeholder="0" disabled>
+                                    <input type="number" id="number2" placeholder="0" disabled>
+                                    <input type="number" id="number3" placeholder="0" disabled>
+                                </form>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="cardFront">
+                        <div class="containerCardFront">
+                            <div class="firstCircle"></div>
+                            <div class="secondCircle"></div>
+                            <form class="cardNumbers" action="">
+                                <div class="groupNumber group1">
+                                    <input type="number" id="" disabled placeholder="0" >
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                </div>
+                                <div class="groupNumber group2">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                </div>
+                                <div class="groupNumber group3">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                </div>
+                                <div class="groupNumber group4">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                    <input type="number" id="" disabled placeholder="0">
+                                </div>
+                            </form>
+                            <form class="customerName" action="">
+                                <input type="text" name="customeName" id="customeName" placeholder="Jane Doe" disabled>
+                            </form>
+                            <form class="cardExpiration" action="">
+                                <input type="number" name="cardExpiration" id="cardExpiration" placeholder="00/00" disabled>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="detailsElt">
+            <div class="container">
+                <form action="">
+                    <div class="cardName">
+                        <label for="name">CARDHOLDER NAME</label>
+                        <input type="text" name="name" id="name" placeholder="e.g. Jane Doe">
+                    </div>
+                    <div class="cardNumberElt">
+                        <label for="numbers">CARD NUMBER</label>
+                        <input type="number" name="number" id="number" placeholder="e.g. 1234 5678 9123 0000">
+                    </div>
+                    <div class="cardDates">
+                        <div class="cardEx">
+                            <label for="expiration">EXP. DATE (MM/YY)</label>
+                            <input type="number" name="expirationMonth" id="expirationMonth" placeholder="MM">
+                            <input type="number" name="expirationYear" id="expirationYear" placeholder="YY">
+                        </div>
+                        <div class="cardCvc">
+                            <label for="CVC">CVC</label>
+                            <input type="number" name="CVC" id="CVC" placeholder="e.g. 123">
+                        </div>
+                    </div>
+                    <input type="submit" value="Confirm">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
